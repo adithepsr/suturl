@@ -1,0 +1,122 @@
+/* dev.css */
+body {
+  font-family: 'Sarabun', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 600;
+  color: #007bff;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
+  font-family: 'Sarabun', sans-serif;
+}
+
+.card-body {
+  padding: 1.5rem;
+  font-family: 'Sarabun', sans-serif;
+}
+
+.img-fluid.rounded-circle {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+  border: 2px solid #ffffff;
+}
+
+.img-fluid.rounded-circle:hover {
+  transform: scale(1.1);
+}
+
+.nav-tabs .nav-link {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  font-family: 'Sarabun', sans-serif;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: #f8f9fa;
+  color: #007bff;
+}
+
+.hvr-glow {
+  transition: box-shadow 0.3s ease;
+}
+
+.hvr-glow:hover {
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
+}
+
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #007bff;
+  height: 2px;
+  transition: left 0.3s ease, right 0.3s ease;
+}
+
+.hvr-underline-from-center:hover:before {
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  h1.text-left {
+      font-size: 1.75rem;
+  }
+
+  .img-fluid.rounded-circle {
+      width: 80px;
+      height: 80px;
+  }
+
+  .card-body {
+      padding: 1rem;
+  }
+}
+
+/* ปรับแต่ง header และ footer ไม่ให้ใช้ฟอนต์ Sarabun */
+header, footer {
+  font-family: 'Sarabun', sans-serif; /* ใช้ฟอนต์เดิม */
+}

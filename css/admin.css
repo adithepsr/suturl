@@ -1,0 +1,186 @@
+/* กำหนดฟอนต์ Noto Sans Thai ให้กับทุก element */
+* {
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+/* ปรับแต่ง header */
+header {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ปรับแต่งเนื้อหา */
+.content {
+  padding: 2rem;
+}
+
+/* ปรับแต่ง card */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.card-header {
+  border-radius: 10px 10px 0 0;
+  padding: 1rem;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+/* ปรับแต่งตาราง */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #dee2e6;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* ปรับแต่งปุ่ม */
+.btn {
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+  border-color: #e0a800;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #c82333;
+}
+
+.btn-add {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+
+.btn-add:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+/* ปรับแต่ง modal */
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.modal-title {
+  font-weight: 600;
+}
+
+.modal-body {
+  padding: 1.5rem;
+}
+
+/* ปรับแต่งฟอร์ม */
+.form-control {
+  border-radius: 5px;
+  padding: 8px 12px;
+  border: 1px solid #ced4da;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+/* ปรับแต่งปุ่ม */
+.btn-action {
+  padding: 5px 10px;
+  margin: 0 5px;
+  font-size: 14px;
+  border: none !important; /* ลบเส้นขอบ */
+}
+
+/* ปรับแต่งตาราง */
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: none !important; /* ลบเส้นขอบ */
+}
+
+.text-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  border: none !important; /* ลบเส้นขอบ */
+}
+
+.table a {
+  color: #007bff;
+  text-decoration: none;
+  border: none !important; /* ลบเส้นขอบ */
+}
+
+.table a:hover {
+  text-decoration: underline;
+  border: none !important; /* ลบเส้นขอบ */
+}
+
+/* ห้ามปรับแต่ง Footer */
+footer {
+}

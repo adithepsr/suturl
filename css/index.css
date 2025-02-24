@@ -1,0 +1,143 @@
+/* ใช้ฟอนต์ Noto Sans Thai */
+body {
+  font-family: 'Noto Sans Thai', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ปรับสไตล์การ์ด */
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+/* ปรับสไตล์ปุ่ม */
+.btn {
+  border-radius: 5px;
+  text-decoration: none; /* ลบเส้นใต้ */
+  font-family: 'Noto Sans Thai', sans-serif; /* ใช้ฟอนต์ Noto Sans Thai */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/* สไตล์ข้อความ */
+.text-muted {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+/* ตรงกลาง */
+#qrcodeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* ปรับสไตล์ input */
+.form-control {
+  font-family: 'Noto Sans Thai', sans-serif; /* ใช้ฟอนต์ Noto Sans Thai */
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding: 0.5rem 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* ปรับสไตล์ label */
+.form-label {
+  font-family: 'Noto Sans Thai', sans-serif; /* ใช้ฟอนต์ Noto Sans Thai */
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+/* ลบเส้นใต้ในลิงค์ */
+a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* ปรับสไตล์ container */
+.container-fluid {
+  padding: 20px;
+}
+
+/* ปรับสไตล์ header */
+.content-header {
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.content-header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #007bff;
+}
+
+.content-header p {
+  font-size: 1rem;
+  color: #6c757d;
+}
